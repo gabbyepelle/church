@@ -1,0 +1,19 @@
+footer{
+    background-color:#0C090A;
+    color: white;
+    padding: 30px 30px 30px 20px;
+    position: relative;
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 0;
+    color: grey;
+}
+
+@media only screen and (min-width: 900px){
+    .footer-content{
+        display: flex;
+        justify-content: space-around;
+    }
+}

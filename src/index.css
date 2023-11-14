@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Great+Vibes&family=Montagu+Slab:opsz,wght@16..144,400;16..144,500;16..144,700&display=swap');
+:root{
+    --paragraph-font: 'Figtree', sans-serif;
+    --heading-font: 'Montagu Slab', serif;
+    --h1-font: 'Great Vibes', cursive;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* main section */
+.welcome{
+    min-height: 25vh;
+    padding-bottom: 3rem;
+}
+
+.welcome p{
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.welcome h1{
+    font-family: var(--h1-font);
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+
+.picture-section{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.visit{
+    min-height: 50vh;
+} 
+
+
+.section-link{
+    text-decoration: none;
+    color: black;
+    background-color: white; 
+    width: 100px;
+    padding: 5px 7px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.series,.school{
+    min-height: 50vh;
+    color: white;
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.title{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 3rem; 
+    padding: 0 10px;
+}
+
+p{
+    font-family:var(--paragraph-font);
+}
+
+
+
+main{
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.text-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 10px;
+} 
+
+
+.school-content h2{
+    font-size: 5rem;
+    color: #E6F7F8;
+    margin-bottom: 10px;
+}
+
+.about-img{
+    width: 80%;
+    height: auto;
+} 
+
+
+.text-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: var(--h1-font);
+    font-size: 5rem;
+    color: black;
+}
+
+.leadership-page img{
+    margin: 0 auto;
+ }
+ 
+ 
+ .leadership{
+     list-style: none;
+     padding-left: 0;
+     display: flex;
+     flex-direction: column;
+     gap: 2.5rem;
+     font-size: 1.5rem;
+     margin-bottom: 3.5rem;
+ }
+ 
+ .leadership li:nth-of-type(2n){
+     font-size: 1.4rem;
+     color:#2b2b3f;
+     font-style: italic;
+ }
+
+ .event-pg-img{
+    width: 50%;
+    height: auto;
+}
+
+.details-container{
+    width: 80%;
+    margin: 1rem auto;
+   
+}
+
+.event-details{
+    font-size: 1.7rem;
+    border-bottom: 1px solid black;
+    width: 200px;
+    margin: 1rem auto;
+}
+
+.event-pg-details{
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.school-header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 4rem;
+}
+
+.school-heading{
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.school-intro{
+    padding: 25px; 
+} 
+
+.school-intro p{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.about-school{
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAFAFA;
+    padding: 25px 0;
+}
+
+.about-school p{
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.school-card p{
+    width: 60%;
+    margin: 2rem auto;
+    font-size: 1.2rem;
+}
+
+.school-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 25px 0;
+}
+
+.visit-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+
+.location{
+    padding: 2rem;
+    background-color: #b1c5ff;
+}
+
+.quotation{
+    min-height: 25vh;
+    padding: 25px;
+    font-size: 1.8rem;
+    font-family: Georgia, serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote{
+    position: relative;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 18rem;
+    position: absolute;
+    left: 0;
+    top: -100px;
+    left: -110px;
+    color: #7a7a7a;
+    opacity: 0.4;
+}
+
+.caption-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.history-img{
+    width: 300px;
+    height: 400px;
+} 
+
+.caption{
+    margin-top: 0.5rem;
+    display: block;
+
+}
+
+.details-container{
+    width: 80%;
+    margin: 1rem auto;
+   
+}
+
+.event-pg-details{
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.error{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--paragraph-font);
+   
+}
+
+.error h1{
+    font-size: 10rem;
+    margin-bottom: 0;
+    font-family: var(--h1-font)
+}
+
+.error span{
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+    .content{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        width: 90%;
+    }
+
+    .text-content{
+        width: 60%;
+        text-align: left;
+    }
+
+    .about-img{
+        width: 35%;
+        height: auto;
+    } 
+
+    .school-page{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .school-intro p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    
+    .school-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    
+    
+    .visit-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+       
+    }
+    
+    .location{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    
+    blockquote:before {
+        display: block;
+        padding-left: 10px;
+        content: "\201C";
+        font-size: 18rem;
+        position: absolute;
+        left: 0;
+        top: -100px;
+        left: -70px;
+        color: #7a7a7a;
+        opacity: 0.4;
+    }
+    
+
+
+}

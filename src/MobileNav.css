@@ -1,0 +1,123 @@
+.toggle{
+    width: 16px;
+    height: auto;
+}
+
+.dropdown-content{
+    display: none;
+    min-width: 160px;
+    opacity: 0.9;
+    transition: all 0.5s ease-out;
+    position: absolute;
+    z-index: 1; 
+}
+
+#about{
+    border: none;
+    background-color: white;
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ .dropdown:hover .dropdown-content {
+   display: block;
+} 
+
+ .dropdown-content ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0C090A;
+    color: white;
+    margin-top: 0.7rem;
+    padding: 1rem;
+    gap: 10px;
+}  
+
+#mobileAbout{
+    background-color: #0C090A;
+    border: 0;
+    font-size: inherit;
+    padding: 0;
+    color: white;
+    margin: 0;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+} 
+
+nav{
+    padding: 15px 40px;
+    color: black;
+    background-color: white;
+ }
+ 
+ nav a{
+     text-decoration: none;
+     color: black;
+ }
+ 
+ nav ul{
+     list-style-type: none;  
+     padding: 0;
+ }
+ 
+ nav ul li{
+     cursor: pointer;
+ }
+ 
+ .mobile-nav ul{
+     display: flex;
+     justify-content: space-between;
+    
+ }
+
+
+ 
+ .text-box{
+     display: flex;
+     justify-content: center;
+     background-color: #0C090A;
+ }
+ 
+ .aboutDrawer{
+    font-size: 0.9rem;
+ }
+ 
+ 
+ .text-box a{
+     color: white;
+ }
+ 
+ .text-box ul li{
+    margin: 10px 0;
+ }
+ 
+ .logo{
+     align-self: center;
+ }
+ 
+ #hamburger{
+     border: none;
+     background-color: transparent;
+ 
+ }
+
+ .hidden{
+    display: none;
+ }
+
+
+ /* not shown on large screens */
+ @media only screen and (min-width: 900px) {
+    .mobile-nav{
+        display: none;
+    }
+
+    .text-box{
+        display: none;
+     }
+ }
