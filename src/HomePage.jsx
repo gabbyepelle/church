@@ -35,7 +35,7 @@ backgroundPositionY: 'center'}} className="series picture-section">
 <section style={{backgroundImage : `url(${school})`,backgroundSize: 'cover'}}
 className="school picture-section">
     <div className="info">
-        <p className="title">Faith Mobile Schools</p>
+        <p className="title">Faith Model Schools</p>
         <Link to="/School" className="section-link">Learn More</Link>
     </div>
 </section>
