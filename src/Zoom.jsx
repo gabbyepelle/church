@@ -13,10 +13,10 @@ export default function Zoom(){
             <main>
            
             <div className="details-container">
-            <h1>Are We Living in the End Times? Part 8</h1>
+            <h1>Are We Living in the End Times? Part 10</h1>
             <img className="event-pg-img" src={series} alt=""></img> 
             <h2 className="event-details ">DETAILS</h2>
-            <p>📆 Wednesday, October 15, 2023</p>
+            <p>📆 Wednesday, November 29, 2023</p>
             <p>⏰ 8:00 PM - 9:00 PM</p>
             <p>📍Online</p>
             <p className="event-pg-details">

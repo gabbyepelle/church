@@ -19,7 +19,7 @@ export default function Worship(){
             <h2>Sunday Worship</h2>
             <p>Join us every Sunday morning at 10:00 am for a soul-stirring worship service. Our talented choir and musicians lead us in heartfelt praise and worship, and powerful sermons that resonate with the challenges and triumphs of our daily lives. Come as you are and experience the love of God in a warm and welcoming environment.</p>
             <h2>Zoom Bible Study</h2>
-            <p>Need an extra spiritual boost? Join us on Wednesday and Saturday evenings at 8:00 for our interactive Bible study.</p>
+            <p>Need an extra spiritual boost? Join us on Wednesday and Sunday evenings at 8:00 for our interactive Bible study.</p>
             <h2>Special Events and Celebrations</h2>
             <p>Throughout the year, we host special events and celebrations to deepen our connection as a church family. From holiday celebrations to night vigils, there’s always something happening at The Tabernacle of the Most High God. Keep an eye on our events calendar to stay updated on upcoming special services, workshops, and social gatherings.</p>
             <h2>Get Involved</h2>
