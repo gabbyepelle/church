@@ -1,8 +1,10 @@
 import "../src/index.css"
 export default function ContactForm(){
   return (
-    <form>
+    <form  method='POST' name="prayerForm">
     <div className="form-control">
+    {/* <input type="hidden" name="prayerForm" value="contact" /> */}
+
                 <label htmlFor="firstName">First Name: </label>
                 <input type="text"
                 id="firstName"
