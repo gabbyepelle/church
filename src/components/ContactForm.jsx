@@ -28,9 +28,8 @@ export default function ContactForm(){
     };
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-    render() {
-      const { name, email, message } = this.state;
+    const { name, email, message } = this.state;
+    
       return (
         <form onSubmit={this.handleSubmit}>
           <p>
@@ -53,7 +52,7 @@ export default function ContactForm(){
           </p>
         </form>
       );
-    }
+    
   }
 }
 
