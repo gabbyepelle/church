@@ -1,26 +1,12 @@
 // import {useState} from 'react'
 // import React, { Component } from 'react';
-import ContactForm from "../src/components/ContactForm.jsx"
+import PrayerForm from "./components/PrayerForm.jsx"
 import hands from "../src/assets/john-canada-BC3YZTY-H10-unsplash.jpg"
 import Footer from "./components/Footer"
 
 
 
 export default function Prayer(){
-    // const [formData, setFormData] = useState({firstName: "", lastName: "", request:""})
-
-    // function handleChange(event){
-    //     const {name, value} = event.target
-    //     setFormData(prevFormData=>{
-    //         return{
-    //             ...prevFormData,
-    //             [name]: value
-    //         }
-    //     })
-
-    // }
-   
-
     return(
         <>
         <header style={{backgroundImage : `url(${hands})`,backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -36,43 +22,8 @@ export default function Prayer(){
         <blockquote>Therefore I tell you, whatever you ask in prayer, believe that you have received it, and it will be yours.</blockquote>
         <cite> - Mark 11:24 </cite>
         </span> 
-            <h1>Prayer Request</h1>
-            {/* <form onSubmit={this.handleSubmit}>
-                <div className="form-control">
-                <label htmlFor="firstName">First Name: </label>
-                <input type="text"
-                id="firstName"
-                name="firstName"
-                onChange={handleChange}
-                value={firstName}
-                />
-                </div>
-                <div className="form-control">
-
-                <label htmlFor="lastName">Last Name: </label>
-                <input type="text" 
-                id="lastName"
-                name="lastName"
-                value={lastName}
-                onChange={handleChange}
-                />
-                </div>
-                <div className="form-control">
-                    <label className="textLabel" htmlFor="request">How can we pray for you?</label>
-                    <textarea 
-                    name="request" 
-                    id="request" 
-                    value={request}
-                    cols="30" 
-                    rows="10"
-                    onChange={handleChange}
-                    >
-                    </textarea>
-                </div>
-                <button>Submit</button>
-            
-            </form> */}
-            <ContactForm/>
+            <h1>Prayer Request</h1>     
+            <PrayerForm/>
         </main>
         <Footer/>
         </>
