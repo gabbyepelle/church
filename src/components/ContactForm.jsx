@@ -1,4 +1,4 @@
-import {Component} from "react"
+import {Component, React} from "react"
 
 const encode = (data) => {
     return Object.keys(data)
@@ -6,7 +6,7 @@ const encode = (data) => {
         .join("&");
   }
 
-  class ContactForm extends Component {
+  class ContactForm extends React.Component {
     constructor(props) {
       super(props);
       this.state = { name: "", email: "", message: "" };
