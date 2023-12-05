@@ -30,7 +30,7 @@ export default function Prayer(){
           this.state = { firstName: "", lastName: "", request: "" };
         }
     }
-    function handleSubmit = e => {
+    const handleSubmit = e => {
         fetch("/", {
           method: "POST",
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -42,7 +42,7 @@ export default function Prayer(){
         e.preventDefault();
       };
 
-      handleChange = e => this.setState({ [e.target.name]: e.target.value });
+      const handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
       const { firstName, lastName, request } = this.state;
 
