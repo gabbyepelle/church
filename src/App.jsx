@@ -13,6 +13,7 @@ import HomePage from "./HomePage"
 import Events from "./Events"
 import Leadership from "./Leadership"
 import NotFound from "./NotFound"
+import Prayer from "./Prayer"
 
 function App() {
   
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Zoom" element={<Zoom/>} />
         <Route path="/Events" element={<Events/>} />
         <Route path="/Leadership" element={<Leadership/>} />
+        <Route path="/Prayer" element={<Prayer/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>

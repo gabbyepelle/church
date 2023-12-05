@@ -53,7 +53,7 @@ export default function School(){
         </section>
         
         <section className="quotation">
-            <blockquote>Train up a child in the way he should go: and when he is old, he will not depart from it.</blockquote>
+            <blockquote className="quote">Train up a child in the way he should go: and when he is old, he will not depart from it.</blockquote>
             <cite> - Proverbs 22:6</cite>
         </section>
 

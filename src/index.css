@@ -269,11 +269,11 @@ main{
     justify-content: center;
 }
 
-blockquote{
+.quote{
     position: relative;
 }
 
-blockquote:before {
+.quote:before {
     display: block;
     padding-left: 10px;
     content: "\201C";
@@ -336,6 +336,39 @@ blockquote:before {
     font-weight: bold;
 }
 
+.prayer{
+    width: 100px;
+    padding: 7px 10px;
+    margin: 0 auto;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.textLabel{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.prayerForm{
+    padding: 2rem 0;
+}
+
+form button{
+    border: none;
+    background-color: #2b2b3f;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
 
 
 
@@ -393,7 +426,7 @@ blockquote:before {
         padding: 2rem;
     }
     
-    blockquote:before {
+    .quote:before {
         display: block;
         padding-left: 10px;
         content: "\201C";

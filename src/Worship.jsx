@@ -1,6 +1,7 @@
 import header from "../src/assets/header.png"
 import Footer from "./components/Footer"
 import worship from "../src/assets/AFFC3D2F-97E4-4A0F-B4DC-1411B87467AD_1_105_c.jpeg"
+import {Link} from "react-router-dom";
 
 
 export default function Worship(){
@@ -24,6 +25,9 @@ export default function Worship(){
             <p>Throughout the year, we host special events and celebrations to deepen our connection as a church family. From holiday celebrations to night vigils, there’s always something happening at The Tabernacle of the Most High God. Keep an eye on our events calendar to stay updated on upcoming special services, workshops, and social gatherings.</p>
             <h2>Get Involved</h2>
             <p>We encourage everyone to get involved and be an active part of our church community. Whether you have a passion for music, a heart for service, or a desire to grow in your faith, there are plenty of opportunities to volunteer and contribute. Reach out to our ministry leaders to find out how you can use your talents to serve others and glorify God.</p>
+            <h2>Prayer</h2>
+            <p>Prayer is an essential part of our ministry. Have a prayer request? Submit it here. All prayer requests are confidential. </p>
+            <Link to="/Prayer" className="prayer">Let Us Pray For You</Link>
             </div>
             
         </section>
