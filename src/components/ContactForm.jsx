@@ -1,4 +1,6 @@
-<form 
+export default function ContactForm(){
+  return (
+    <form 
   method='POST' 
   name='contactform' 
   className='contactForm'>
@@ -24,4 +26,9 @@
 
   <button type='submit'>Submit</button>
 </form>
+  )
+}
+
+
+
 
