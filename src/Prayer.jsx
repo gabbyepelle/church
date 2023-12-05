@@ -19,34 +19,7 @@ export default function Prayer(){
     //     })
 
     // }
-    const encode = (data) => {
-        return Object.keys(data)
-            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-            .join("&");
-      }
-    
-      class PrayerForm extends React.Component {
-        constructor(props) {
-          super(props);
-          this.state = { firstName: "", lastName: "", request: "" };
-        }
-    }
-     const handleSubmit = e => {
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: encode({ "form-name": "prayerForm", ...this.state })
-        })
-          .then(() => alert("Success!"))
-          .catch(error => alert(error));
-  
-        e.preventDefault();
-      };
-
-      const handleChange = e => this.setState({ [e.target.name]: e.target.value });
-
-      const { firstName, lastName, request } = this.state;
-
+   
 
     return(
         <>
