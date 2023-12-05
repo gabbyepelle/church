@@ -1,5 +1,6 @@
-import {useState} from 'react'
-import React, { Component } from 'react';
+// import {useState} from 'react'
+// import React, { Component } from 'react';
+import ContactForm from "../src/components/ContactForm.jsx"
 import hands from "../src/assets/john-canada-BC3YZTY-H10-unsplash.jpg"
 import Footer from "./components/Footer"
 
@@ -63,7 +64,7 @@ export default function Prayer(){
         <cite> - Mark 11:24 </cite>
         </span> 
             <h1>Prayer Request</h1>
-            <form onSubmit={this.handleSubmit}>
+            {/* <form onSubmit={this.handleSubmit}>
                 <div className="form-control">
                 <label htmlFor="firstName">First Name: </label>
                 <input type="text"
@@ -97,7 +98,8 @@ export default function Prayer(){
                 </div>
                 <button>Submit</button>
             
-            </form>
+            </form> */}
+            <ContactForm/>
         </main>
         <Footer/>
         </>
