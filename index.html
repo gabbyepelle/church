@@ -7,6 +7,11 @@
     <title>TOTMHG</title>
   </head>
   <body>
+    <form name="prayerForm" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <textarea name="request"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script>const global = globalThis;</script>
