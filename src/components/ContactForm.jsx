@@ -1,6 +1,7 @@
 import {Component, React} from "react"
 
-const encode = (data) => {
+export default function ContactForm(){
+  const encode = (data) => {
     return Object.keys(data)
         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
         .join("&");
@@ -54,3 +55,5 @@ const encode = (data) => {
       );
     }
   }
+}
+
