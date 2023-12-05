@@ -1,58 +1,27 @@
-import {Component, React} from "react"
+<form 
+  method='POST' 
+  name='contactform' 
+  className='contactForm'>
 
-export default function ContactForm(){
-  const encode = (data) => {
-    return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-        .join("&");
-  }
+  <input 
+    type='hidden'
+    name='form-name'
+    value='contactForm' />
 
-  class ContactForm extends React.Component {
-    constructor(props) {
-      super(props);
-      this.state = { name: "", email: "", message: "" };
-    }
+  <input 
+    type='text' 
+    name='name' 
+    placeholder='Enter your name' />
 
-    /* Here’s the juicy bit for posting the form submission */
+  <input 
+    type='email' 
+    name='email' 
+    placeholder='Enter your email' />
 
-    handleSubmit = e => {
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...this.state })
-      })
-        .then(() => alert("Success!"))
-        .catch(error => alert(error));
+  <textarea 
+    name='message' 
+    placeholder='Messaage'></textarea>
 
-      e.preventDefault();
-    };
-
-    handleChange = e => this.setState({ [e.target.name]: e.target.value });
-    const { name, email, message } = this.state;
-    
-      return (
-        <form onSubmit={this.handleSubmit}>
-          <p>
-            <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-      );
-    
-  }
-}
+  <button type='submit'>Submit</button>
+</form>
 
