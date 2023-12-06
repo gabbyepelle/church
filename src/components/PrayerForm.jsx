@@ -1,7 +1,9 @@
 
 export default function ContactForm(){
   return (
-    <form  method='POST' name="prayerForm">
+    <form  name="prayerForm" method="post">
+      <input type="hidden" name="form-name" value="prayerForm" />
+
     <div className="form-control">
     
 
