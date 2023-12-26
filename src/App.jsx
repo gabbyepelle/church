@@ -14,6 +14,7 @@ import Events from "./Events"
 import Leadership from "./Leadership"
 import NotFound from "./NotFound"
 import Prayer from "./Prayer"
+import OneBrick from "./OneBrick"
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
         <Route path="/History" element={<History/>} />
         {/* <Route path="/SampleEvent" element={<SampleEvent/>} /> */}
         <Route path="/School" element={<School/>} />
+        <Route path="/OneBrick" element={<OneBrick/>} />
         <Route path="/Worship" element={<Worship/>} />
         <Route path="/Zoom" element={<Zoom/>} />
         <Route path="/Events" element={<Events/>} />

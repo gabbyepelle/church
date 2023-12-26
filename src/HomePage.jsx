@@ -4,6 +4,7 @@ import home from "../src/assets/7BE11762-A3B8-4102-A33E-84A7717713E5_1_201_a.jpe
 import visit from "../src/assets/82753C9A-DB14-4568-9B3D-08D1B9194793.jpeg"
 import series from "../src/assets/1F1ECB4B-697F-4EF3-9DC3-9E448FBD541A.png"
 import school from "../src/assets/189B8CD4-4D9A-4306-BFAB-C9A26B686BE0.png"
+import brick from "../src/assets/oneBricksh.png"
 
 
 export default function HomePage(){
@@ -32,6 +33,14 @@ backgroundPositionY: 'center'}} className="series picture-section">
         <Link to="/Zoom" className="section-link">Learn More</Link>
     </div>
 </section>
+<section style={{backgroundImage : `url(${brick})`,backgroundSize: 'cover', backgroundPositionY: '40%', backgroundPositionX: '40%'}}
+className="school picture-section">
+    <div className="info">
+        <p className="title">One Brick Initiative</p>
+        <Link to="/OneBrick" className="section-link">Learn More</Link>
+    </div>
+</section>
+
 <section style={{backgroundImage : `url(${school})`,backgroundSize: 'cover'}}
 className="school picture-section">
     <div className="info">
