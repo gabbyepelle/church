@@ -20,6 +20,7 @@ export default function OneBrick(){
                 <p>
                     Every brick symbolizes our resilience and commitment to our community. Stand with us, rebuild with us, and let the strength of our unity prevail. Act now and be a cornerstone in the reconstruction of our cherished church.
                     </p>
+                    <p>Contact your station pastor for more details. </p>
             </div>
             </section>
             </main>

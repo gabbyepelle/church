@@ -16,7 +16,7 @@ export default function Zoom(){
             <h1>Are We Living in the End Times? Part 10</h1>
             <img className="event-pg-img" src={series} alt=""></img> 
             <h2 className="event-details ">DETAILS</h2>
-            <p>📆 Sunday, December 2, 2023</p>
+            <p>📆 Thursday, January 4, 2024</p>
             <p>⏰ 8:00 PM - 9:00 PM</p>
             <p>📍Online</p>
             <p className="event-pg-details">
