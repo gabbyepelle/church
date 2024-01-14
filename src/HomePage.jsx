@@ -7,6 +7,7 @@ import school from "../src/assets/189B8CD4-4D9A-4306-BFAB-C9A26B686BE0.png"
 import brick from "../src/assets/oneBricksh.png"
 
 
+
 export default function HomePage(){
     return (
         <div>
