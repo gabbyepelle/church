@@ -1,4 +1,4 @@
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 ReactGA.initialize('G-1LP0YMWH61')
 
 import Navbar from './components/Navbar'
