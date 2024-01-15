@@ -1,3 +1,5 @@
+import ReactGA from 'react-ga'
+ReactGA.initialize('G-9L72D351RS')
 
 import Navbar from './components/Navbar'
 import MobileNav from './components/MobileNav'
@@ -15,10 +17,15 @@ import Leadership from "./Leadership"
 import NotFound from "./NotFound"
 import Prayer from "./Prayer"
 import OneBrick from "./OneBrick"
+import { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+
 
 function App() {
-  
-
+  const location = useLocation();
+  useEffect(() =>{
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location])
   return (
     
     <Router>
