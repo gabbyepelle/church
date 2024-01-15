@@ -1,5 +1,5 @@
 import ReactGA from 'react-ga'
-ReactGA.initialize('G-9L72D351RS')
+ReactGA.initialize('G-1LP0YMWH61')
 
 import Navbar from './components/Navbar'
 import MobileNav from './components/MobileNav'
