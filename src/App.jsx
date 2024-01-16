@@ -17,15 +17,15 @@ import Leadership from "./Leadership"
 import NotFound from "./NotFound"
 import Prayer from "./Prayer"
 import OneBrick from "./OneBrick"
-import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+// import { useEffect } from 'react'
+// import { useLocation } from 'react-router-dom'
 
 
 function App() {
-  const location = useLocation();
-  useEffect(() =>{
-    ReactGA.pageview(location.pathname + location.search);
-  }, [location])
+  // const location = useLocation();
+  // useEffect(() =>{
+  //   ReactGA.send.("pageview").(location.pathname + location.search);
+  // }, [location])
   return (
     
     <Router>
