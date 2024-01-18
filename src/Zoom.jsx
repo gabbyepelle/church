@@ -1,6 +1,6 @@
 import header from "../src/assets/header.png"
 import Footer from "./components/Footer"
-import series from "../src/assets/1F1ECB4B-697F-4EF3-9DC3-9E448FBD541A.png"
+import series from "../src/assets/john-towner-3Kv48NS4WUU-unsplash.jpg"
 
 export default function Zoom(){
     return (
@@ -13,14 +13,14 @@ export default function Zoom(){
             <main>
            
             <div className="details-container">
-            <h1>Are We Living in the End Times? Part 25</h1>
+            <h1>The Road to Redemption</h1>
             <img className="event-pg-img" src={series} alt=""></img> 
             <h2 className="event-details ">DETAILS</h2>
-            <p>📆 Sunday, January 14, 2024</p>
+            <p>📆 Sunday, January 21, 2024</p>
             <p>⏰ 8:00 PM - 9:00 PM</p>
             <p>📍Online</p>
             <p className="event-pg-details">
-                We delve into prophetic scripture and discuss current events that lead many to believe that we are living in the end times.</p>
+                2024 has been named the year of redemption. In this new series, we take an inventory of our weaknesses and learn how we can overcome them. </p>
             </div>
             </main>
             <Footer/>

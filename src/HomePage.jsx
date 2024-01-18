@@ -2,9 +2,10 @@ import {Link} from "react-router-dom";
 import Footer from "./components/Footer"
 import home from "../src/assets/7BE11762-A3B8-4102-A33E-84A7717713E5_1_201_a.jpeg"
 import visit from "../src/assets/82753C9A-DB14-4568-9B3D-08D1B9194793.jpeg"
-import series from "../src/assets/1F1ECB4B-697F-4EF3-9DC3-9E448FBD541A.png"
+// import series from "../src/assets/1F1ECB4B-697F-4EF3-9DC3-9E448FBD541A.png"
 import school from "../src/assets/189B8CD4-4D9A-4306-BFAB-C9A26B686BE0.png"
 import brick from "../src/assets/oneBricksh.png"
+import series from "../src/assets/john-towner-3Kv48NS4WUU-unsplash.jpg"
 
 
 
@@ -27,10 +28,10 @@ export default function HomePage(){
        </section>
 <section
 style={{backgroundImage : `url(${series})`,backgroundSize: 'cover',
-backgroundPositionY: 'center'}} className="series picture-section">
+backgroundPositionY: '70%'}} className="series picture-section">
     <div className="info">
-        <p>Zoom Lecture Series</p>
-        <p className="title">Are We Living in the End Times?</p>
+        <p>New Zoom Lecture Series</p>
+        <p className="title">The Road to Redemption</p>
         <Link to="/Zoom" className="section-link">Learn More</Link>
     </div>
 </section>
