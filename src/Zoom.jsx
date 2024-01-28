@@ -16,7 +16,7 @@ export default function Zoom(){
             <h1>The Road to Redemption</h1>
             <img className="event-pg-img" src={series} alt=""></img> 
             <h2 className="event-details ">DETAILS</h2>
-            <p>📆 Sunday, January 28, 2024</p>
+            <p>📆 Monday, January 29, 2024</p>
             <p>⏰ 8:00 PM - 9:00 PM</p>
             <p>📍Online</p>
             <p className="event-pg-details">
