@@ -17,6 +17,7 @@ import Leadership from "./Leadership"
 import NotFound from "./NotFound"
 import Prayer from "./Prayer"
 import OneBrick from "./OneBrick"
+import Vigil from "./Vigil"
 // import { useEffect } from 'react'
 // import { useLocation } from 'react-router-dom'
 
@@ -44,6 +45,7 @@ function App() {
         <Route path="/Events" element={<Events/>} />
         <Route path="/Leadership" element={<Leadership/>} />
         <Route path="/Prayer" element={<Prayer/>} />
+        <Route path="/Vigil" element={<Vigil/>} />
         <Route path="*" element={<NotFound/>} />
       </Routes>
     </Router>

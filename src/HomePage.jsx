@@ -6,6 +6,7 @@ import visit from "../src/assets/82753C9A-DB14-4568-9B3D-08D1B9194793.jpeg"
 import school from "../src/assets/189B8CD4-4D9A-4306-BFAB-C9A26B686BE0.png"
 import brick from "../src/assets/oneBricksh.png"
 import series from "../src/assets/john-towner-3Kv48NS4WUU-unsplash.jpg"
+import vigil from "../src/assets/mike-ralph-0yIzvpbRFw8-unsplash.jpg"
 
 
 
@@ -19,6 +20,14 @@ export default function HomePage(){
         <h1>Welcome!</h1>
         <p>At The Tabernacle of the Most High God, we believe in the transformative power of faith, love, and community. Whether you are a longtime believer, a seeker, or someone just curious about exploring faith, you are welcome here.</p>
        </section>
+        <section
+style={{backgroundImage : `url(${vigil})`,backgroundSize: 'cover',
+backgroundPositionY: 'center'}} className="series picture-section">
+    <div className="info">
+        <p className="title">A Night of Prayers for Protection</p>
+        <Link to="/Vigil" className="section-link">Learn More</Link>
+    </div>
+</section>
        <section 
        style={{background: `linear-gradient(rgba(16, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(${visit})`, backgroundSize: 'cover'}} className="visit picture-section">
         <div className="info">
@@ -26,6 +35,8 @@ export default function HomePage(){
         <Link to="/Worship" className="section-link">Learn More</Link>
     </div>
        </section>
+      
+       
 <section
 style={{backgroundImage : `url(${series})`,backgroundSize: 'cover',
 backgroundPositionY: '70%'}} className="series picture-section">
